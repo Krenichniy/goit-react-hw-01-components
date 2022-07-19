@@ -8,3 +8,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 );
+console.log('Hello, this is my new React-project!');

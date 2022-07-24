@@ -1,0 +1,44 @@
+.transactionHistory {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  overflow: hidden;
+
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.transactionHistory > thead {
+  margin: 0;
+
+  background-color: #60a3b9;
+  color: #fff;
+}
+
+tr > th {
+  padding: 15px 0;
+}
+
+tr:hover > td {
+  color: #fff;
+}
+tr:hover {
+  background-color: #60a3b9;
+}
+
+.transactionHistory > tbody {
+  text-align: center;
+  background-image: repeating-linear-gradient(
+    transparent 0 5%,
+    rgb(209, 199, 199) 5% 10%
+  );
+}
+
+.tDate {
+  padding: 15px 0;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+  color: #8ea3aa;
+}

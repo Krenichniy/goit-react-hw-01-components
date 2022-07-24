@@ -5,7 +5,7 @@
   margin-right: auto;
   flex-direction: column;
   padding: 70px 0;
-
+  width: 500px;
   background-color: #e1eceb;
 }
 .description {
@@ -13,7 +13,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 250px;
+  width: 450px;
   padding: 20px 15px;
   border-radius: 5px 5px 0 0;
   background-color: #fff;
@@ -59,7 +59,7 @@
   color: rgb(216, 206, 206);
 } */
 .stats {
-  width: 250px;
+  width: 450px;
   list-style: none;
   display: flex;
   justify-content: space-between;
